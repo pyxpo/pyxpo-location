@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "nativeContract": 1,
+  "name": "location",
+  "native": "Location",
+  "ios": {
+    "classes": ["LocationModule"],
+    "infoPlist": {
+      "NSLocationWhenInUseUsageDescription": {
+        "option": "locationWhenInUsePermission",
+        "default": "Use your location."
+      },
+      "NSLocationAlwaysAndWhenInUseUsageDescription": {
+        "option": "locationAlwaysAndWhenInUsePermission",
+        "default": "Use your location, also while the app is in the background."
+      }
+    }
+  },
+  "android": {
+    "namespace": "dev.pyxpo.modules.location",
+    "classes": ["dev.pyxpo.modules.location.LocationModule"],
+    "minSdk": 24
+  }
+}
