@@ -7,7 +7,7 @@ Where the phone is: position, live updates, compass heading and address lookup f
 addresses.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/location/docs/images/hero.png" width="820" alt="The location module on Android and iOS: permission status, latitude and longitude, and a reverse-geocoded address">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-location/main/docs/images/hero.png" width="820" alt="The location module on Android and iOS: permission status, latitude and longitude, and a reverse-geocoded address">
 </p>
 
 ```python
@@ -105,7 +105,7 @@ def Here():
 > work bumps a counter in state, and the counter is a dependency, as above.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/location/docs/images/locate.png" width="720" alt="Locate me on Android and iOS showing latitude, longitude, accuracy, altitude and a San Francisco address">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-location/main/docs/images/locate.png" width="720" alt="Locate me on Android and iOS showing latitude, longitude, accuracy, altitude and a San Francisco address">
 </p>
 
 ## Permissions
