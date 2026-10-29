@@ -1,5 +1,7 @@
 # pyxpo-location
 
+[![CI](https://github.com/pyxpo/pyxpo-location/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-location/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-location)](https://pypi.org/project/pyxpo-location/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-location)](https://pypi.org/project/pyxpo-location/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 Where the phone is: position, live updates, compass heading and address lookup for
 [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in Python. The API follows
 [expo-location](https://docs.expo.dev/versions/latest/sdk/location/). iOS uses Core Location. Android uses the platform
