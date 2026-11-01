@@ -28,7 +28,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from pyxpo.module_api import NotSupportedError, call, on_event, permission_response, platform, require_linked
 
-__version__ = "0.1.0a1"
+__version__ = "0.1.0a2"
 
 LocationObject = Dict[str, Any]
 Handler = Callable[[Any], Any]

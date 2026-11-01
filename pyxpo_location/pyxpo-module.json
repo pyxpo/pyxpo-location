@@ -4,6 +4,9 @@
   "name": "location",
   "native": "Location",
   "ios": {
+    "privacyManifest": {"NSPrivacyAccessedAPITypes": [
+      {"NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults", "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]}
+    ]},
     "classes": ["LocationModule"],
     "infoPlist": {
       "NSLocationWhenInUseUsageDescription": {

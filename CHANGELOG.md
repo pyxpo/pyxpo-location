@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 0.1.0a2 (2026-11-02)
 
+- iOS: declares the required-reason APIs it uses (`ios.privacyManifest` in `pyxpo-module.json`), so pyxpo 0.1.0a23 and later add them to the app's `PrivacyInfo.xcprivacy` for App Store review.
 - Moved to its own repository, github.com/pyxpo/pyxpo-location, with CI on Python 3.9 and 3.12 and releases from tags.
 - Added a security policy, a contributing guide and issue templates.
 
